@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="week7.mandatoryassignment.tests.ConfigureChatQueueEntryTest"/>
+      <class name="week7.mandatoryassignment.tests.DeleteRequestTest"/>
+      <class name="week7.mandatoryassignment.tests.CreateChatQueueEntryTest"/>
+      <class name="week7.mandatoryassignment.tests.AssessChangeTest"/>
+      <class name="week7.mandatoryassignment.tests.CreateRequestTest"/>
+      <class name="week7.mandatoryassignment.tests.UpdateRequestTest"/>
+      <class name="week7.mandatoryassignment.tests.CancelRequestTest"/>
+      <class name="week7.mandatoryassignment.tests.UpdateChatQueueEntryTest"/>
+      <class name="week7.mandatoryassignment.tests.CreateChangeTest"/>
+      <class name="week7.mandatoryassignment.tests.UpdateChangeTest"/>
+      <class name="week7.mandatoryassignment.tests.DeleteChangeTest"/>
+      <class name="week7.mandatoryassignment.tests.DeleteChatQueueEntryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
